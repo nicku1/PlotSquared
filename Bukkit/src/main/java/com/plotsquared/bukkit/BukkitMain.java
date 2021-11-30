@@ -139,7 +139,7 @@ import org.bukkit.metadata.FixedMetadataValue;
 import org.bukkit.metadata.MetadataValue;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.incendo.serverlib.ServerLib;
+//import org.incendo.serverlib.ServerLib;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -407,8 +407,8 @@ public final class BukkitMain extends JavaPlugin implements Listener, IPlotMain<
         }, 100L, 100L);
 
         // Check if we are in a safe environment
-        ServerLib.checkUnsafeForks();
-        ServerLib.checkJavaLTS();
+        //ServerLib.checkUnsafeForks();
+        //ServerLib.checkJavaLTS();
     }
 
     private void unload() {

@@ -993,7 +993,7 @@ public class Plot {
                     return;
                 }
                 CuboidRegion region = regions.poll();
-                RegionManager.manager.setBiome(region, extendBiome, biome, getWorldName(), this);
+                RegionManager.manager.setBiome(region, 0, biome, getWorldName(), this);
             }
         };
         run.run();
